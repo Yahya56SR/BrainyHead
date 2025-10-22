@@ -16,6 +16,9 @@ ENV PYTHONDONTWRITEBYTECODE=1
 # the application crashes without emitting any logs due to buffering.
 ENV PYTHONUNBUFFERED=1
 
+# Install eSpeak-ng for text-to-speech functionality and FFmpeg for audio processing
+RUN apt-get update && apt-get install -y espeak-ng ffmpeg && rm -rf /var/lib/apt/lists/*
+
 WORKDIR /app
 
 # Create a non-privileged user that the app will run under.

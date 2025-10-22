@@ -1,2 +1,12 @@
 ngrok
 python-dotenv
+groq
+SpeechRecognition
+pyserial
+pyttsx3
+fastapi
+uvicorn[standard]
+websockets
+pydub
+requests
+openai

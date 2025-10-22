@@ -17,7 +17,7 @@ listener = ngrok.forward(
     domain=os.getenv("NGROK_DOMAIN"),
     # Secure your endpoint with a traffic policy.
     # This could also be a path to a traffic policy file.
-    traffic_policy='{"on_http_request": [{"actions": [{"type": "oauth","config": {"provider": "google"}}]}]}',
+    # traffic_policy='{"on_http_request": [{"actions": [{"type": "oauth","config": {"provider": "google"}}]}]}',
 )
 
 # Output ngrok url to console
