@@ -84,6 +84,4 @@ dist-ssr
 # Prevent tracking nested git repositories and their internal .git folders
 # (these subfolders are separate repositories)
 **/.git
-BrainyHead-ESP32/
-BrainyHead-ESP32-CAM/
-BrainyHead-Server/
+backups/
