@@ -1,0 +1,9 @@
+[submodule "BrainyHead-ESP32"]
+	path = BrainyHead-ESP32
+	url = https://github.com/Yahya56SR/BrainyHead-ESP32.git
+[submodule "BrainyHead-ESP32-CAM"]
+	path = BrainyHead-ESP32-CAM
+	url = https://github.com/Yahya56SR/BrainyHead-ESP32-CAM.git
+[submodule "BrainyHead-Server"]
+	path = BrainyHead-Server
+	url = https://github.com/Yahya56SR/BrainyHead-Server.git
