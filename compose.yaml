@@ -9,10 +9,11 @@
 # https://github.com/docker/awesome-compose
 services:
   server:
+    restart: always
     build:
       context: .
-    ports:
-      - 8000:8000
+    # ports:
+    #   - 8000:8000 # No need to expose ports when using ngrok or similar tunneling services
     env_file:
       - .env
 
